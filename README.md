@@ -1,9 +1,10 @@
 @[TOC](vue-li-validate)
 
+
 # 安装：
 
 ```
-npm install --save vvue-li-validate
+npm install --save vue-li-validate
 ```
 
 # 全局配置
@@ -59,7 +60,7 @@ const submitForm1 = () => {
 
 ```
 
-![在这里插入图片描述](//images.weserv.nl/?url=https://i-blog.csdnimg.cn/direct/d8a14ff2120649b18aa0eacff5f080a0.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/d8a14ff2120649b18aa0eacff5f080a0.png)
 # 进阶用法
 
 1.传了li-rule的话会校验该规则，提示配套的错误提示，可以同时设置多个校验项目，以逗号隔开；例如：<input li-rule="english,length"/>
@@ -94,7 +95,7 @@ if (window.liValidate("form2")) {
 </style>
 ```
 
-![在这里插入图片描述](//images.weserv.nl/?url=https://i-blog.csdnimg.cn/direct/76026337a31e4229b0ecdfa532855b67.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/76026337a31e4229b0ecdfa532855b67.png)
 
 # 进阶用法,配置
 
@@ -141,7 +142,7 @@ const submitForm3 = () => {
   }
 };
 ```
-![在这里插入图片描述](//images.weserv.nl/?url=https://i-blog.csdnimg.cn/direct/39eb242c26ec4647ab30b0c09d66735e.gif)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/39eb242c26ec4647ab30b0c09d66735e.gif)
 
 # overflow下
 
@@ -174,7 +175,7 @@ const submitForm4 = () => {
   overflow: auto;
 }
 ```
-![在这里插入图片描述](//images.weserv.nl/?url=https://i-blog.csdnimg.cn/direct/13819cb19bd64d74a11c2fc2bff1d87a.gif)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/13819cb19bd64d74a11c2fc2bff1d87a.gif)
 
 # 自定义弹出位置
 
@@ -195,7 +196,7 @@ const showMsg = () => {
 };
 ```
 
-![在这里插入图片描述](//images.weserv.nl/?url=https://i-blog.csdnimg.cn/direct/dae002526fa04d6fba506a2b9ebc726f.gif)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/dae002526fa04d6fba506a2b9ebc726f.gif)
 
 # 所有可配置项
 ## 属性 LiValidateOptions
